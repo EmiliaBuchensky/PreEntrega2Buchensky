@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+}
+
+html {
+    background-color: #BD89BD;
+}
+
+
+
+
+
+/* HEADER COMIENZO */
+.header-contenedor nav {
+    background-color: #BD89BD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-contenedor img{
+    width: 120px;
+    height: auto;
+}
+
+.logo-rotacion:hover {
+    transform: rotate(20deg);
+}
+
+.header-lista{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.header-lista a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #424874;
+}
+
+.header-lista a:hover {
+    color: #4D0142;
+    text-shadow: none;
+}
+/* HEADER FIN */
+
+
+
+
+/* INDEX */
+.intro {
+    background-image: url(../img/FONDO2.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+
+.buscador input{
+    width: 400px;
+    height: 25px;
+}
+/* INDEX END*/
+
+
+
+
+
+/* COMIENZO FOOTER */
+.footer-contenedor {
+    background-color: #BD89BD;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-contenedor img{
+    width: 80px;
+    height: auto;
+}
+
+.footer-contenedor div img {
+    width: 50px;
+    height: auto;
+}
+
+.footer-contenedor p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.footer-contenedor div p{
+    font-size: 14px;
+}
+
+.iconos-scale a img:hover {
+    transform:scale(1.1);
+}
+/* FIN FOOTER */
+
+
+
+
+/* COMIENZO PRODUCTOS/BLENDS */
+.main-productos{
+    background-color: #BD89BD;
+    height: 500px;
+}
+
+.section-productos a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.section-productos h2{
+    padding: 15px 5px 15px 5px;
+}
+
+
+.productos-container{
+    background-color: #ffffff;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.productos-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px #BD89BD;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productos div img{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.productos-container .productos div{
+    text-align: center;
+    border: #A6B1E1 solid 1px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-right: 10px;
+    background-color: #4D0142;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+}
+
+.productos div p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.productos div a{
+    font-weight: lighter;
+    font-size: 16px;
+    color: #4D0142;
+    background-color: #A6B1E1;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 40px;
+    border: #4D0142 solid 1px
+}
+
+
+/* FIN PRODUCTOS/BLENDS */
+
+
+
+
+/* COMIENZO QUIENESSOMOS */
+.main-sobre-nosotros{
+    height: 900px;
+    background-color: #4D0142;
+}
+
+.section-sobre-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150vh
+}
+
+.section-sobre-nosotros article{
+    text-align: center;
+    color: #eaedff;
+}
+
+.art-sobre-nosotros h2{
+    padding: 15px 5px 15px 5px;
+    text-align: left;
+    color: white;
+}
+
+.art-sobre-nosotros p{
+    text-align: justify;
+    font-weight: lighter;
+    padding: 30px;
+    font-size: 20px;
+    letter-spacing: normal
+}
+
+.section-sobre-nosotros img{
+    border-radius: 15px;
+    border: #ffffff solid 10px;
+}
+/* FINAL QUIENESSOMOS */
+
+
+
+
+
+
+
+/* COMIENZO CONTACTO */
+.main-formulario{
+    height: 900px;
+    background-color: #4D0142;
+}
+
+.section-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150vh
+}
+
+.section-formulario article{
+    text-align: center;
+    color: #eaedff;
+}
+
+.section-formulario h2{
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    color: white;
+}
+
+.art-formulario label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-weight: medium;
+    padding: 15px 5px 15px 5px;
+    font-size: 20px;
+    letter-spacing: normal;
+}
+/* FIN CONTACTO */
