@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: white;
-}
 
 html {
     background-color: #BD89BD;
@@ -15,8 +12,11 @@ html {
 
 
 
-
 /* HEADER COMIENZO */
+.header-main {
+    color: white
+}
+
 .header-contenedor nav {
     background-color: #BD89BD;
     display: flex;
@@ -58,33 +58,67 @@ html {
 
 
 
-
 /* INDEX */
-.intro {
+
+.main-contenedor {
+    display: flex;
     background-image: url(../img/FONDO2.png);
     height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    color: black;
+    color: #4D0142;
     font-size: 35px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (min-width: 576px){
+    .text-main-contenedor{
+        font-size: 35px;
+        text-shadow: 2px 2px 2px #ac9bb1
+    }
+}
+
+@media (max-width: 575px){
+    .text-main-contenedor{
+        text-align:center;
+        font-size: 25px;
+        text-shadow: 2px 2px 2px #ac9bb1
+    }
 }
 
 .buscador{
     display: flex;
     justify-content: center;
+    
 }
 
 .buscador input{
-    width: 400px;
-    height: 25px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    display: flex;
+    width: 500px;
+    height: 40px;
+    border-radius: 8px
 }
-/* INDEX END*/
 
+.searchbutton:hover {opacity:0.6}
+
+.searchbutton {
+    background-color: #BD89BD;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 12px
+  }
+/* INDEX END*/
 
 
 
@@ -121,8 +155,18 @@ html {
 .iconos-scale a img:hover {
     transform:scale(1.1);
 }
-/* FIN FOOTER */
 
+@media (max-width: 575px){
+    .footer-contenedor{
+        display: flex;
+    }
+    .iconos-scale{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+}
+/* FIN FOOTER */
 
 
 
@@ -132,22 +176,40 @@ html {
     height: 500px;
 }
 
+.main-productos ul {
+    width: 200px;
+    height: 250px;
+  }
+  
+  .main-productos ul {
+    background-color: #4D0142;
+    padding: 20px;
+    list-style: none
+  }
+
 .section-productos a{
     text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: bolder;
+    font-size: 25px;
+    text-align:right;
+    color: white;
+    font-weight: bold;
     margin-left: 7px;
     margin-right: 7px;
+    text-transform:initial;
+    text-shadow: 2px 2px 2px #424874;
+
+}
+.section-productos a:hover {
+    color: #BD89BD;
+    text-shadow: none;
 }
 
 .section-productos h2{
     padding: 15px 5px 15px 5px;
 }
 
-
 .productos-container{
-    background-color: #ffffff;
+    background-color: #BD89BD;
     height: 500px;
     display: flex;
     justify-content: space-between;
@@ -160,7 +222,6 @@ html {
     font-weight: bold;
     color: #000000;
     text-align: center;
-    text-decoration: underline;
     text-shadow: 2px 2px 2px #BD89BD;
 }
 
@@ -211,15 +272,33 @@ html {
     border: #4D0142 solid 1px
 }
 
+@media (min-width: 576px){
+    .productos-container{
+        display:flex
+    }
+}
+
+@media (max-width: 575px){
+    .productos-container{
+        display: flex;
+    }
+    .productos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 /* FIN PRODUCTOS/BLENDS */
 
 
 
 
+
+
 /* COMIENZO QUIENESSOMOS */
 .main-sobre-nosotros{
-    height: 900px;
+    height: 700px;
     background-color: #4D0142;
 }
 
@@ -251,11 +330,22 @@ html {
 }
 
 .section-sobre-nosotros img{
-    border-radius: 15px;
-    border: #ffffff solid 10px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: 500px;
 }
-/* FINAL QUIENESSOMOS */
 
+@media (max-width: 575px){
+    #MargariteSobreNosotros{
+        display: flex;
+        border-radius: 50%;
+        padding: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* FINAL QUIENESSOMOS */
 
 
 
@@ -264,7 +354,7 @@ html {
 
 /* COMIENZO CONTACTO */
 .main-formulario{
-    height: 900px;
+    height: 600px;
     background-color: #4D0142;
 }
 
