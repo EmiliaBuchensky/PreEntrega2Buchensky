@@ -1,0 +1,33 @@
+.main-formulario {
+	height: 500px;
+	background-color: #4D0142;
+}
+.section-formulario {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 150vh;
+	article {
+		text-align: center;
+		color: #eaedff;
+	}
+	h2 {
+		padding: 15px 5px 15px 5px;
+		text-align: center;
+		color: white;
+	}
+}
+.art-formulario {
+	label {
+		display: flex;
+		width: 90px;
+		font-weight: medium;
+		padding: 10px;
+		font-size: 20px;
+		text-align: center;
+		letter-spacing: normal;
+		box-shadow:#4D0142;
+		border-radius: 10px;
+	}
+}

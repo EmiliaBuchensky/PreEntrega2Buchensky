@@ -1,0 +1,41 @@
+.header-main {
+	color: white;
+}
+.header-contenedor {
+	nav {
+		background-color: #BD89BD;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+	}
+}
+.nav-contenedor {
+	img {
+		width: 120px;
+		height: auto;
+	}
+}
+.logo-rotacion {
+	&:hover {
+		transform: rotate(20deg);
+	}
+}
+.header-lista {
+	margin-left: 16px;
+	margin-right: 16px;
+	a {
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+		font-weight: bolder;
+		margin-left: 7px;
+		margin-right: 7px;
+		text-transform: uppercase;
+		text-shadow: 2px 2px 2px #424874;
+		&:hover {
+			color: #4D0142;
+			text-shadow: none;
+		}
+	}
+}

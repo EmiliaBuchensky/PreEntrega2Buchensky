@@ -1,0 +1,35 @@
+.main-sobre-nosotros {
+	height: 700px;
+	background-color: #4D0142;
+}
+.section-sobre-nosotros {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 150vh;
+	article {
+		text-align: center;
+		color: #eaedff;
+	}
+	img {
+		border-radius: 50%;
+		max-width: 100%;
+		height: 400px;
+		position:fixed
+	}
+}
+.art-sobre-nosotros {
+	h2 {
+		padding: 15px 5px 15px 5px;
+		text-align: left;
+		color: white;
+	}
+	p {
+		text-align: justify;
+		font-weight: lighter;
+		padding: 30px;
+		font-size: 20px;
+		letter-spacing: normal;
+	}
+}
