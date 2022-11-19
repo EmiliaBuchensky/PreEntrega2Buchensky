@@ -1,39 +1,30 @@
 @media (min-width: 576px) {
 	.text-main-contenedor {
-		font-size: 35px;
-		text-shadow: 2px 2px 2px #ac9bb1;
-	}
+	  font-size: 35px;
+	  text-shadow: 2px 2px 2px #ac9bb1; }
 	.productos-container {
-		display: flex;
-	}
-}
-@media (max-width: 575px) {
+	  display: flex; } }
+  
+  @media (max-width: 575px) {
 	.text-main-contenedor {
-		text-align: center;
-		font-size: 25px;
-		text-shadow: 2px 2px 2px #ac9bb1;
-	}
+	  text-align: center;
+	  font-size: 25px;
+	  text-shadow: 2px 2px 2px #ac9bb1; }
 	.footer-contenedor {
-		display: flex;
-	}
+	  display: flex; }
 	.iconos-scale {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-	}
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center; }
 	.productos-container {
-		display: flex;
-	}
+	  display: flex; }
 	.productos {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center; }
 	#MargariteSobreNosotros {
-		display: flex;
-		border-radius: 50%;
-		padding: 30px;
-		max-width: 100%;
-		height: auto;
-	}
-}
+	  display: flex;
+	  border-radius: 50%;
+	  padding: 30px;
+	  max-width: 100%;
+	  height:auto } }

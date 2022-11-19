@@ -1,29 +1,22 @@
-.header-main {
-	color: white;
+.navbar {
+	background-color: #BD89BD;
+	height: auto;
+	margin: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
 }
-.header-contenedor {
-	nav {
-		background-color: #BD89BD;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 10px;
-	}
-}
-.nav-contenedor {
-	img {
-		width: 120px;
-		height: auto;
-	}
+#Logo-navbar {
+	width: 110px;
+	height: auto;
 }
 .logo-rotacion {
 	&:hover {
 		transform: rotate(20deg);
 	}
 }
-.header-lista {
-	margin-left: 16px;
-	margin-right: 16px;
+.nav-item {
 	a {
 		text-decoration: none;
 		font-size: 20px;
@@ -38,4 +31,12 @@
 			text-shadow: none;
 		}
 	}
+}
+.dropdown-menu {
+	background-color: #4D0142;
+}
+.header-main {
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 5px #000000;
 }
